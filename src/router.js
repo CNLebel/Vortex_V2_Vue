@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import HomeContainer from './components/tabbar/HomeContainer.vue'
 import PublicContainer from './components/tabbar/PublicContainer.vue'
 import SearchContainer from './components/tabbar/SearchContainer.vue'
-import SetupContainer from './components/tabbar/SetupContainer.vue'
+import UserInfomation from './components/tabbar/UserInfomation.vue'
 import UserRegister from './components/users/UserRegister'
 import UserLogin from './components/users/UserLogin'
 
@@ -30,9 +30,9 @@ export default new Router({
             name: 'search'
         },
         {
-            path: '/setup',
-            component: SetupContainer,
-            name: 'setup'
+            path: '/users',
+            component: UserInfomation,
+            name: 'users'
         },
         {
             path: '/register',

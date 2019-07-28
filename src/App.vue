@@ -29,9 +29,9 @@
         <span class="mui-tab-label">搜索</span>
       </router-link> 
 
-      <router-link class="mui-tab-item bar-icon-color" to="/setup">
-        <span class="mui-icon mui-icon-gear"></span>
-        <span class="mui-tab-label">设置</span>
+      <router-link class="mui-tab-item bar-icon-color" to="/users">
+        <span class="mui-icon  mui-icon-contact"></span>
+        <span class="mui-tab-label">用户</span>
       </router-link> 
 
     </nav>
